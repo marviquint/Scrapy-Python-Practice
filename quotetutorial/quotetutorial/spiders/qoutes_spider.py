@@ -1,7 +1,7 @@
 import scrapy
 from ..items import QuotetutorialItem
 class QouteSpider(scrapy.Spider):
-    name = "qoutes"
+    name = "quotes"
     start_urls = [
         'https://quotes.toscrape.com/'
     ]
