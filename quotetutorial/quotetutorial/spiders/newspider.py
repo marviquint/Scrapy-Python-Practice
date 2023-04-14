@@ -1,7 +1,7 @@
 import scrapy
 
 class MySpider(scrapy.Spider):
-    name = 'sapphire1_892'
+    name = 'sapphire1_891'
 
     def start_requests(self):
        # start_url = input('Enter the URL to scrape: ')
