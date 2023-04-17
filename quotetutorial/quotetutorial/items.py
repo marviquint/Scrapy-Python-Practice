@@ -13,6 +13,5 @@ class QuotetutorialItem(scrapy.Item):
     tag = scrapy.Field()
     
 class PDF_spider(scrapy.Item):
-    # define the fields for your item here like:
     rule_name = scrapy.Field()
     pdf_link = scrapy.Field()
